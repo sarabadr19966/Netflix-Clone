@@ -1,0 +1,49 @@
+.signInUpScreen{
+    background-image:url('../../../images/login_background.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    color: white;
+    min-height:100vh;
+  
+}
+
+.signInUpScreen__background{
+    padding: 20px;
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.8));
+    background-color: rgb(0,0,0,0.4);
+    min-height: 100vh;
+
+}
+
+.signInUpScreen__logo{
+    object-fit: contain;
+    width: 100px;
+    position: fixed;
+    left: 20px;
+    z-index: 1;
+}
+.signInUpScreen__button{
+    border-radius: 2px;
+    color: white;
+    background-color: #D91921;
+    font-weight: 600;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    outline-width: 0;
+    cursor: pointer;
+    position: fixed;
+    right: 20px;
+    z-index: 1;
+}
+
+.signInUpScreen__content{
+    min-height: 90vh;
+    display: flex;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,77 @@
+.profileScreen{
+    min-height: 100vh;
+    background-color: #111;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.profileScreen__body{
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profileScreen__info{
+    display: flex;
+}
+
+.profileScreen__body h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: 400;
+    border-bottom: 1px solid #282c2d;
+    padding-bottom: 10px;
+}
+
+.profileScreen__info img{
+    height: 80px;
+    object-fit: contain;
+}
+
+.profileScreen__details{
+    flex: 1;
+    margin-left: 25px;
+}
+
+
+
+.profileScreen__details h2{
+    padding: 10px;
+    background-color: gray;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.profileScreen__details button{
+    background-color: #D91921;
+    color: white;
+    border: none;
+    outline-width:0;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 2px;
+    width: 100%;
+
+}
+
+.profileScreen__plan {
+    margin-top: 20px;
+}
+
+.profileScreen__plan h3{
+
+    border-bottom: 1px solid #282c2d;  
+    padding-bottom: 10px;
+}
+
+.profileScreen__planDetails {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}

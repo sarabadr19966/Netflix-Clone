@@ -1,0 +1,51 @@
+.signIn{
+    text-align: center;
+    box-sizing: border-box;
+    width: calc(100vw - 40px);
+    padding-top: 70px;
+}
+
+.signIn h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+
+}
+
+.signIn h2{
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.signIn h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.signIn input{
+    border: none;
+    outline-width: 0;
+    width: 30%;
+    max-width: 600px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 2px;
+    border-top-right-radius: 0px ;
+    border-bottom-right-radius:0px ;
+}
+
+.signIn button{
+    background-color: #D91921;
+    color: white;
+    border: none;
+    outline-width:0;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    height: 40px;
+    border-radius: 2px;
+    border-top-left-radius: 0px ;
+    border-bottom-left-radius:0px ;
+}
