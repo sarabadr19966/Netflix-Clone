@@ -22,34 +22,32 @@ const Netflix = (props) => {
             }
         });
         return unsubscribe;
-    },[])
-    return  (
+    },[]);
+
+    return  <>
+        {!props.user ? <SignInUpScreen/> :
+            <Router>
+            <Switch>
+                <Route exact path="/profile" component={ProfileScreen} />
+                <Route exact path="/" component={HomeScreen} />
+            </Switch>
+            </Router>
+        }
         
-        <>
-            {!props.user ? <SignInUpScreen/> :
-                <Router>
-                <Switch>
-                    <Route exact path="/profile" component={ProfileScreen} />
-                    <Route exact path="/" component={HomeScreen} />
-                </Switch>
-                </Router>
-            }
-            
-        </>
-    )
-}
+    </>
+};
 
 const mapStateToProps = state => {
     return {
-        user : state.user
+        user: state.user
     }
 };
 
 const mapDispatchToProps = dispatch => {
     return {
-        logIn : user => dispatch(actionCreators.login(user)),
-        logOut : () => dispatch(actionCreators.logout())
+        logIn: user => dispatch(actionCreators.login(user)),
+        logOut: () => dispatch(actionCreators.logout())
     }
-}
+};
 
 export default connect(mapStateToProps, mapDispatchToProps)(Netflix);

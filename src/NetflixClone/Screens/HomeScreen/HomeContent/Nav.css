@@ -1,4 +1,4 @@
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -7,21 +7,22 @@
     width: 100%;
     box-sizing: border-box; 
     z-index: 50;
-    
-}
-.nav__black{
+} 
+
+.nav__black {
     background-color: rgb(20, 20, 20);
     transition-timing-function: ease-in;
     transition: all 0.5s;
     height: 80px;
 }
-.nav__logo{
+
+.nav__logo {
     width: 100px;
     height: 40px;
     cursor: pointer;
 }
 
-.nav__avatar{
+.nav__avatar {
     width: 45px;
     height: 40px;
     cursor: pointer;

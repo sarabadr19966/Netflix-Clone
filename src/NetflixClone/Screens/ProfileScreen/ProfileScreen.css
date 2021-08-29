@@ -1,11 +1,10 @@
-.profileScreen{
+.profileScreen {
     min-height: 100vh;
     background-color: #111;
-    color: white;
     padding-bottom: 20px;
 }
 
-.profileScreen__body{
+.profileScreen__body {
     width: 80%;
     max-width: 800px;
     margin: 0 auto;
@@ -14,11 +13,11 @@
     flex-direction: column;
 }
 
-.profileScreen__info{
+.profileScreen__info {
     display: flex;
 }
 
-.profileScreen__body h1{
+.profileScreen__body h1 {
     font-size: 3rem;
     margin-bottom: 20px;
     font-weight: 400;
@@ -26,26 +25,24 @@
     padding-bottom: 10px;
 }
 
-.profileScreen__info img{
+.profileScreen__info img {
     height: 80px;
     object-fit: contain;
 }
 
-.profileScreen__details{
+.profileScreen__details {
     flex: 1;
     margin-left: 25px;
 }
 
-
-
-.profileScreen__details h2{
+.profileScreen__details h2 {
     padding: 10px;
     background-color: gray;
     font-size: 15px;
     padding-left: 20px;
 }
 
-.profileScreen__details button{
+.profileScreen__details button {
     background-color: #D91921;
     color: white;
     border: none;
@@ -57,15 +54,13 @@
     padding: 10px 20px;
     border-radius: 2px;
     width: 100%;
-
 }
 
 .profileScreen__plan {
     margin-top: 20px;
 }
 
-.profileScreen__plan h3{
-
+.profileScreen__plan h3 {
     border-bottom: 1px solid #282c2d;  
     padding-bottom: 10px;
 }

@@ -11,8 +11,8 @@ const Banner = () => {
             const randomIndex =Math.floor(Math.random()*res.data.results.length);
             setMovie(res.data.results[randomIndex]);
         })
-        .catch(error => console.log(error))
-    },[])
+        .catch(error => console.log(error));
+    },[]);
 
     const baseURL = 'https://image.tmdb.org/t/p/original/';
 
@@ -31,14 +31,12 @@ const Banner = () => {
     >
         <div className='banner__content'>
             <h1 className='banner__title'>{movie?.title || movie?.name || movie?.original_name}</h1>
-
                 <button className='banner__button'>Play</button>
                 <button className='banner__button'>My List</button>
-        
             <h1 className='banner__description'>{truncate(movie?.overview, 150)}</h1>
         </div>
         <div className='banner__fadeBottom'/>
     </header>
-}
+};
 
 export default Banner;

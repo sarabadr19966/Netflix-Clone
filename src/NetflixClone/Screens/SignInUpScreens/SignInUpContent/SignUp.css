@@ -1,4 +1,4 @@
-.signUp{
+.signUp {
     text-align: center;
     box-sizing: border-box;
     width: 70%;
@@ -8,14 +8,13 @@
     padding: 40px;
     display: flex;
     flex-direction: column;
-    
 }
 
-.signUp__title{
+.signUp__title {
     text-align: left;
 }
 
-.signUp input{
+.signUp input {
     width: 90%;
     min-width: 100px;
     height: 40px;
@@ -24,9 +23,10 @@
     outline-width: 0;
     margin-top: 15px;
     border-radius: 2px;
+    color: rgb(20, 20, 20);
 }
 
-.signUp button{
+.signUp button {
     width: 60%;
     padding: 10px 20px;
     color: white;
@@ -38,13 +38,14 @@
     cursor: pointer;
     margin-top: 20px;
     margin-bottom: 20px;
-    border-radius: 2px;border-radius: 2px;
+    border-radius: 2px;
 }
 
-.signUp__new{
+.signUp__new {
     color: gray;
 }
-.signUp__link:hover{
+
+.signUp__link:hover {
     text-decoration: underline;
     cursor: pointer;
 }

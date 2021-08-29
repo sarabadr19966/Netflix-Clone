@@ -1,30 +1,28 @@
-.signInUpScreen{
+.signInUpScreen {
     background-image:url('../../../images/login_background.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
-    color: white;
     min-height:100vh;
-  
 }
 
-.signInUpScreen__background{
+.signInUpScreen__background {
     padding: 20px;
     background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.8));
     background-color: rgb(0,0,0,0.4);
     min-height: 100vh;
-
 }
 
-.signInUpScreen__logo{
+.signInUpScreen__logo {
     object-fit: contain;
     width: 100px;
     position: fixed;
     left: 20px;
     z-index: 1;
 }
-.signInUpScreen__button{
+
+.signInUpScreen__button {
     border-radius: 2px;
     color: white;
     background-color: #D91921;
@@ -39,7 +37,7 @@
     z-index: 1;
 }
 
-.signInUpScreen__content{
+.signInUpScreen__content {
     min-height: 90vh;
     display: flex;
     display: flex;

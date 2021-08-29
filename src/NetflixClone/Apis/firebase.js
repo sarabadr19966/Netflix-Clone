@@ -5,7 +5,7 @@ const firebaseConfig = {
     projectId: "netflix-clone-6729f",
     storageBucket: "netflix-clone-6729f.appspot.com",
     messagingSenderId: "953590294941",
-    appId: "1:953590294941:web:0557a058ee9647c44c2774"
+    appId: "1:953590294941:web:0557a058ee9647c44c2774",
   };
 
 
