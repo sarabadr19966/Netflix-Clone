@@ -5,6 +5,7 @@ import ProfileScreen from './Screens/ProfileScreen/ProfileScreen';
 import SignInUpScreen from './Screens/SignInUpScreens/SignInUpScreen';
 import { auth } from './Apis/firebase';
 import {connect} from 'react-redux';
+import "./Netflix.css";
 import * as actionCreators from './store/action';
 
 const Netflix = (props) => {

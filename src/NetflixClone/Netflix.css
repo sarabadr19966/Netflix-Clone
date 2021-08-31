@@ -1,0 +1,36 @@
+@media (max-width : 420px) {
+    .banner__description {
+        width:90%;
+    }
+    .banner__title{
+        font-size: x-large;
+    }
+    .banner{
+        height: 350px;
+    }
+    .banner__content{
+        padding-top:80px;
+    }
+    .banner__fadeBottom {
+        height: 4rem;
+    }
+    
+.signUp {
+    padding: 20px;
+    width: 100%;
+}
+
+.profileScreen__body h1 {
+    font-size: x-large;
+    font-weight: 500;
+}
+.profileScreen__info{
+    flex-direction: column;
+    justify-content: start;
+}
+.profileScreen__info img{
+    width: 130px;
+    margin-bottom: 20px;
+}
+
+}
