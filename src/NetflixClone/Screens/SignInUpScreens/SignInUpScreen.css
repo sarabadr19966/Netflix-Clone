@@ -15,11 +15,11 @@
 }
 
 .signInUpScreen__logo {
-    object-fit: contain;
     width: 100px;
     position: fixed;
     left: 20px;
     z-index: 10;
+    height: 40px;
 }
 
 .signInUpScreen__button {
@@ -27,14 +27,15 @@
     color: white;
     background-color: #D91921;
     font-weight: 600;
-    padding: 10px 20px;
     font-size: 1rem;
     border: none;
     outline-width: 0;
     cursor: pointer;
     position: fixed;
     right: 20px;
-    z-index: 1;
+    z-index: 1;  
+    height: 40px;
+    width: 80px;
 }
 
 .signInUpScreen__content {
